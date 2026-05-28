@@ -140,15 +140,14 @@ img { display: block; max-width: 100%; }
   z-index: 2;
   max-width: 980px;
 }
-.hero__wheel {
+.hero__lotus {
   position: absolute;
   right: calc(var(--gutter) * -0.4);
   top: 50%;
   transform: translateY(-46%);
   width: clamp(420px, 48vw, 640px);
   height: auto;
-  color: var(--accent);
-  opacity: 0.16;
+  opacity: 0.08;
   pointer-events: none;
   z-index: 1;
 }
@@ -444,7 +443,7 @@ body[data-hero="lead"]    .hero-v--lead    { display: inline; }
   .step-head { flex-direction: column; gap: 4px; align-items: flex-start; }
 }
 @media (max-width: 640px) {
-  .hero__wheel { display: none; }
+  .hero__lotus { display: none; }
   .display { font-size: clamp(38px, 11vw, 64px); line-height: 0.98; }
   .hero { padding-top: clamp(36px, 8vw, 56px); }
   .card { padding: 22px 22px 0; min-height: 0; }
