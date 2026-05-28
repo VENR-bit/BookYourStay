@@ -59,19 +59,13 @@ img { display: block; max-width: 100%; }
   padding: 20px var(--gutter) 0;
 }
 .home-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
+  display: inline-block;
   font-family: var(--sans);
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--muted);
-  background: var(--bg-soft);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 7px 14px;
   text-decoration: none;
 }
 
