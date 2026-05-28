@@ -51,6 +51,34 @@ body {
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
 
+/* ───────── HOME BUTTON ───────── */
+.home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: fixed;
+  top: 18px;
+  left: var(--gutter);
+  z-index: 1000;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 7px 14px;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.home-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--card);
+}
+
 /* ───────── HEADER ───────── */
 .topbar {
   display: flex;
